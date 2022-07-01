@@ -1,25 +1,37 @@
-//FOR(DESDE; HASTA; ACTUALIZACION) {sentencias}
+/*  FOR
 
-// for(let i = 10; i > 0; i--) {
-//     console.log(i);
-// }
+for (desde; hasta; actualizacion) {
+    lo que se escriba aca se ejecutara mientras dure el ciclo
+}
 
-// let numeroIngresado = parseInt(prompt("Ingresa un numero"));
-// let numeroRepeticiones = parseInt(prompt("Cuantas veces queres repetir?"));
+*/
 
-// for(let i = 1; i <= numeroRepeticiones; i++) {
-//     let resultado = numeroIngresado * i;
+/*
 
-//     if(resultado == 54) {
-//         break;
-//     }
-//     if(resultado == 12) {
-//         continue;
-//     }
+for(let i = 0; i <= 10; i++) {
+    console.log(i);
+}
 
-//     console.log(`el numero ${numeroIngresado} X ${i} = ${resultado}`);
-// }
+*/
 
+let numeroIngresado = parseInt(prompt("Ingresa un numero"));
+let numeroRepeticiones = parseInt(prompt("Cuantas veces queres repetir?"));
+
+for(let i = 1; i <= numeroRepeticiones; i++) {
+    let resultado = numeroIngresado * i;
+
+    if(resultado == 54) {
+        break;
+    }
+    if(resultado == 12) {
+        continue;
+    }
+
+    console.log(`el numero ${numeroIngresado} X ${i} = ${resultado}`);
+}
+
+// BREAK (termina el ciclo)
+// CONTINUE (saltea esa iteracion en el ciclo y continua)
 
 // validacion de contrasena
 
@@ -42,6 +54,7 @@
 
 //el resto de mi aplicacion
 
+/*
 
 let animal = prompt("Que animal te gusta?");
 
@@ -59,3 +72,5 @@ switch(animal) {
         alert("No se como hace el " + animal );
         break;
 }
+
+*/
